@@ -2,7 +2,7 @@ def reverse_each_word(sentence)
 array =[]
 seperates_words = sentence.split("")
 seperates_words.each do |sentence|
-  array << sentence.reverse
+  array << string.reverse
 end
 return array.join("")
 end
