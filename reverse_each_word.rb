@@ -5,6 +5,8 @@ seperate_words.each do |string|
   cool_array << string.reverse
 end
 return cool_array.join(" ")
+
+
 def reverse_each_word(string)
   seperate_words2 = string.split(" ") 
   new_array = []
