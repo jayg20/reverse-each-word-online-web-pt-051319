@@ -1,20 +1,20 @@
-def reverse_each_word(sentence)
-array =[]
-seperates_words = sentence.split("")
-seperates_words.each do |sentence|
-  array << string.reverse
-end
-return array.join("")
+def reverse_each_word(string)
+original_array = string.split(" ")
+  return_array = []
+  original_array.each do|string|
+    return_array << string.reverse
+  end
+  return_array.join(" ")
 end
 
-def reverse_each_word(sentence)
-new_array = []
-seperates_words_one = sentence.split("")
-seperates_words_one.collect do |sentence|
-  new_array << sentence.reverse
+def reverse_each_word(string)
+  array = string.split(" ") 
+  test_array = []
+  array.collect do|string| 
+    test_array << string.reverse 
+  end
+  test_array.join(" ")
 end
-new_array.join("")
-end 
 
 
   
