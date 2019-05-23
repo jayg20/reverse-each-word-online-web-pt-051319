@@ -3,9 +3,8 @@ array =[]
 seperates_words = sentence1.split("")
 seperates_words.each do |sentence|
   array.push(sentence.reverse)
-  return array.join("")
 end
-
+return array.join("")
 end
 
 def reverse_each_word(sentence)
