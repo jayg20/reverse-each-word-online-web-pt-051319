@@ -3,8 +3,9 @@ array =[]
 seperates_words = sentence.split("")
 seperates_words.each do |sentence|
   array << seperates_words.reverse
+  return array.join("")
 end
-return array.join("")
+
 end
 
 def reverse_each_word(sentence)
